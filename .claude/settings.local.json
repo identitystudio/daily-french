@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(npx --offline tsc --noEmit)",
-      "Bash(npx --offline next build)"
+      "Bash(npx --offline next build)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
