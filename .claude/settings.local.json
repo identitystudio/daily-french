@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --offline tsc --noEmit)",
+      "Bash(npx --offline next build)"
+    ]
+  }
+}
